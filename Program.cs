@@ -18,7 +18,7 @@ namespace ConsoleApp3
                 array[i] = m;
                 Console.WriteLine(array[i]);
             }
-            foreach (int item in array)
+            foreach (int item in array) //this loop gets out of index bounds and i dont even know why help
             {
                 array[item] = 1;
                 Console.WriteLine(array[item]);
